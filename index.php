@@ -1,70 +1,87 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title></title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="js/open.js"></script>
-    <script src="js/message.js"></script>
-    <script src="js/close.js"></script>
-    <script type="text/javascript">
-        var socket = null;
-
-        function send(msg, socket, type) {
-            var data = {};
-            var type = type || 'chat';
-            data.msg = msg;
-            data.type = type;
-            socket.send(JSON.stringify(data));
-        }
-        $(function () {
-            $('.submit').click(function() {
-                socket = new WebSocket('ws://127.0.0.1:8900');
-                socket.onopen = function (event) {
-                    send($('.name').val(), socket, 2);
-                };
-                socket.onmessage = function (event) {
-                    console.log(event);
-                };
-                socket.onclose = function(event) {
-                    console.log(event);
-                };
-                // 关闭Socket....
-                //socket.close()
-            });
-            $('.send').click(function () {
-                if (socket !== null) {
-                    socket.send($('.write').val());
-                }
-            });
-        });
-
-
-    </script>
-    <style type="text/css">
-        #box {width: 600px; margin-top: 40px;}
-        #box > div {float: left;width: 580px;margin-top: 10px;border: 1px solid #eee;padding: 10px;}
-        .info {width: 600px;}
-        .info > .user,.info > .message {float: left;overflow-y: scroll; overflow-x: scroll;}
-        .user {width: 200px;height: 300px;border-right: 1px solid #eee;}
-        .message {width: 370px;height: 300px;}
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="js/lib/layui/css/layui.css" media="screen">
 </head>
 <body>
-<div id="box">
-    <div class="join">
-        <input type="text" class="name">
-        <input type="button" class="submit" value="Join">
+<div class="layui-container layui-bg-orange" id="box">
+    <div class="layui-row" >
+        <div class="layui-col-md8" id="message-form">
+            <div class="layui-row">
+                <div class="layui-col-md12" id="message-list">
+                    <blockquote class="layui-elem-quote per-msg">
+                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
+                        <div class="message-data">大家好</div>
+                    </blockquote>
+                    <blockquote class="layui-elem-quote per-msg">
+                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
+                        <div class="message-data">大家好</div>
+                    </blockquote>
+                    <blockquote class="layui-elem-quote per-msg">
+                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
+                        <div class="message-data">大家好</div>
+                    </blockquote>
+                    <blockquote class="layui-elem-quote per-msg">
+                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
+                        <div class="message-data">大家好</div>
+                    </blockquote>
+                    <blockquote class="layui-elem-quote per-msg">
+                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
+                        <div class="message-data">大家好</div>
+                    </blockquote>
+                    <blockquote class="layui-elem-quote per-msg">
+                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
+                        <div class="message-data">大家好</div>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="layui-row">
+                <div class="layui-col-md12">
+                    <form class="layui-form layui-form-pane">
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">文本域</label>
+                            <div class="layui-input-block">
+                                <textarea placeholder="请输入内容" id="message" class="layui-textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <a class="layui-btn" id="send"><i class="layui-icon">&#xe609;</i> 发 送</a>
+                            <a class="layui-btn layui-btn-normal fr" id="entry"><i class="layui-icon">&#xe654;</i>参与聊天</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md4">
+            <ul id="user-list">
+                <li>22222</li>
+            </ul>
+        </div>
     </div>
-    <div class="info">
-        <div class="user"></div>
-        <div class="message"></div>
-        <div style="clear: both;border: none;"></div>
-    </div>
-    <div class="operate">
-        <input type="text" class="write">
-        <input type="button" class="send" value="Send">
-    </div>
-    <div style="clear: both;border: none;"></div>
 </div>
+
+<script src="js/lib/layui/layui.js"></script>
+<script type="text/javascript">
+    layui.config({
+        base: '/js/modules/'
+    }).use(['jquery', 'index'], function () {
+        var $ = layui.jquery;
+        var index = layui.index;
+        //index.init();
+        $('#entry').click(function() {
+            var status = index.switchUserStatus();
+            if (status === 0) {
+                $('#entry').html('退出聊天')
+            } else {
+                $('#entry').html('<i class="layui-icon">&#xe654;</i>参与聊天')
+            }
+        })
+
+        $('#send').click(function () {
+            var status = index.sendMessage($('#message').val());
+        });
+    });
+</script>
 </body>
 </html>

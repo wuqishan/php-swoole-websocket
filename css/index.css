@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+.fl {float: left}
+.fr {float: right}
+.clear {clear: both}
+
+form .layui-form-item {
+    margin-bottom: 5px;
+}
+#box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+#message-form {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+}
+#message-list {
+    height: 320px;
+    padding: 8px;
+    overflow-y: scroll;
+}
+#message-list > .per-msg {
+    padding: 5px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    color: #2F4056;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#message-list > .per-msg > .message-info {
+    background-color: #E9E7E7;
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-style: normal;
+}
+#user-list {
+    background-color: #F9F9F9;
+    margin-left: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    color: #0C0C0C;
+    height: 485px;
+    overflow-y: scroll;
+}
+#user-list li {
+    padding: 5px;
+}
