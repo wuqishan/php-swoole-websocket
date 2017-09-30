@@ -49,8 +49,8 @@ class WebSocketChat {
             $this->message->run($server, $frame);
         });
 
-        $this->server->on('close', function ($ser, $fd) {
-            $this->close->run($ser, $fd);
+        $this->server->on('close', function ($server, $fd) {
+            $this->close->run($server, $fd);
         });
 
         $this->server->start();

@@ -4,19 +4,24 @@ require_once 'Event.class.php';
 
 class CloseEvent extends Event
 {
-    public function __construct()
-    {
-    }
+    public $data;
 
     public function run($server, $fd)
     {
-        print_r($server);
-        foreach ($server->connections as $v) {
-            //$server->push($v, $request->get['message']);
-            //echo $v."\n";
-        }
+        // 写入基本数据
+        $this->getNormalInfo($server, $fd);
+        $this->close($server, $fd);
+    }
 
-        echo "client {$fd} closed\n";
+    public function close($server, $fd)
+    {
+        $redisKey = $this->getRedisKey($server, $fd);
+        $msg = $server->redis->get($redisKey);
+        $server->redis->del($redisKey);
+        $this->message['from'] = $msg;
+        $this->message['type'] = 3;
+
+        $this->pushMsgToAll($server, $this->message, $fd);
     }
 
 }
