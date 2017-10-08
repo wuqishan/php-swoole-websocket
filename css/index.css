@@ -35,7 +35,21 @@ form .layui-form-item {
     font-size: 12px;
     margin-bottom: 8px;
     font-style: normal;
+    color: #555555;
 }
+
+#message-list > .per-msg > .user-entry {
+    display: block;
+    text-align: center;
+    color: hotpink;
+}
+
+#message-list > .per-msg > .user-leave {
+    display: block;
+    text-align: center;
+    color: #93D1FF;
+}
+
 #user-list {
     background-color: #F9F9F9;
     margin-left: 20px;

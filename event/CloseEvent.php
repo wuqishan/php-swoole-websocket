@@ -1,6 +1,8 @@
 <?php
 
-require_once 'Event.class.php';
+namespace Event;
+
+use Event\Event;
 
 class CloseEvent extends Event
 {

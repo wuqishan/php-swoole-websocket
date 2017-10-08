@@ -1,5 +1,7 @@
 <?php
 
+namespace Helper;
+
 class RedisHelper
 {
     public $redis;
@@ -7,8 +9,8 @@ class RedisHelper
 
     public function __construct()
     {
-        $this->redis = new Redis();
-        $this->redis->connect('127.0.0.1', 6379);
+        $this->redis = new \Redis();
+        $this->redis->connect(getenv('REDIS_SERVER'), getenv('REDIS_PORT'));
     }
 
     public function set($key, $value)

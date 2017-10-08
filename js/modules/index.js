@@ -1,3 +1,6 @@
+/**
+ * index js
+ */
 layui.define(['jquery', 'layer', 'tool'], function(exports){
     var $ = layui.jquery;
     var layer = layui.layer;
@@ -6,17 +9,30 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
     var index = {};
 
     index.init = function (userId) {
-        socket = new WebSocket('ws://127.0.0.1:8900');
+        socket = new WebSocket('ws://192.168.0.114:8900');
         socket.onopen = function (event) {
             index.send(userId, 2);
         };
         socket.onmessage = function (event) {
-            console.log(event);
+            event.dataObj = JSON.parse(event.data);
+
+            if (event.dataObj.type === 1) {
+                tool.chat(event);
+            } else if (event.dataObj.type === 2) {
+                tool.entry(event);
+            } else if (event.dataObj.type === 3) {
+                tool.leave(event);
+            }
+
+            tool.scrollBottom();
         };
         socket.onclose = function (event) {
-            console.log(event);
+            layer.msg('已经离开聊天室！',{
+                icon: 0,
+                time: 2000
+            })
         };
-    }
+    };
 
     index.send = function (msg, type) {
         var data = {};
@@ -24,7 +40,7 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
         data.msg = msg;
         data.type = type;
         socket.send(JSON.stringify(data));
-    }
+    };
 
     index.switchUserStatus = function () {
         if (socket === null) {
@@ -36,19 +52,20 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
                     layer.msg('ID长度不能超过15',{
                         icon: 0,
                         time: 2000
-                    })
+                    });
                 } else {
                     layer.close(entry);
                     index.init(userId);
+                    $('#entry').html('退出聊天');
                 }
             });
-            return 0;
         } else {
-            socket.close()
-            return 1;
+            socket.close();
+            socket = null;
+            $('#entry').html('<i class="layui-icon">&#xe654;</i>参与聊天');
         }
 
-    }
+    };
 
     index.sendMessage = function (message) {
         if (socket !== null) {
@@ -59,7 +76,7 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
                 time: 2000
             });
         }
-    }
+    };
 
     exports('index', index);
 });

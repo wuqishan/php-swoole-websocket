@@ -1,11 +1,12 @@
 <?php
 
-require_once 'event/OpenEvent.class.php';
-require_once 'event/MessageEvent.class.php';
-require_once 'event/CloseEvent.class.php';
-require_once 'helper/RedisHelper.class.php';
+require_once 'vendor/autoload.php';
 
-session_start();
+use Dotenv\Dotenv;
+use Event\OpenEvent;
+use Event\CloseEvent;
+use Event\MessageEvent;
+use Helper\RedisHelper;
 
 class WebSocketChat {
 
@@ -16,11 +17,14 @@ class WebSocketChat {
 
     public function __construct()
     {
+        $env = new Dotenv(__DIR__);
+        $env->load();
+
         $this->open = new OpenEvent();
         $this->message = new MessageEvent();
         $this->close = new CloseEvent();
 
-        $this->server = new swoole_websocket_server('0.0.0.0', 8900);
+        $this->server = new swoole_websocket_server(getenv('WEBSOCKET_SERVER'), getenv('WEBSOCKER_PORT'));
 
         $this->server->set(array(
             'daemonize' => false,

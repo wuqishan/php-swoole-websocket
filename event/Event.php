@@ -1,5 +1,7 @@
 <?php
 
+namespace Event;
+
 class Event
 {
     public $message;

@@ -1,6 +1,8 @@
 <?php
 
-require_once 'Event.class.php';
+namespace Event;
+
+use Event\Event;
 
 class MessageEvent extends Event
 {
@@ -29,6 +31,7 @@ class MessageEvent extends Event
         $redisKey = $this->getRedisKey($server, $frame->fd);
         $this->message['from'] = $server->redis->get($redisKey);
         $this->message['type'] = 1;
+        $this->message['message'] = $this->data->msg;
 
         $this->pushMsgToAll($server, $this->message);
     }

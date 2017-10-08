@@ -19,20 +19,11 @@
                         <div class="message-data">大家好</div>
                     </blockquote>
                     <blockquote class="layui-elem-quote per-msg">
-                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
-                        <div class="message-data">大家好</div>
+                        <div class="message-data user-entry">欢迎用户《一线天》加入聊天室</div>
                     </blockquote>
+
                     <blockquote class="layui-elem-quote per-msg">
-                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
-                        <div class="message-data">大家好</div>
-                    </blockquote>
-                    <blockquote class="layui-elem-quote per-msg">
-                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
-                        <div class="message-data">大家好</div>
-                    </blockquote>
-                    <blockquote class="layui-elem-quote per-msg">
-                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
-                        <div class="message-data">大家好</div>
+                        <div class="message-data user-leave">用户《一线天》离开聊天室</div>
                     </blockquote>
                 </div>
             </div>
@@ -68,18 +59,13 @@
     }).use(['jquery', 'index'], function () {
         var $ = layui.jquery;
         var index = layui.index;
-        //index.init();
+
         $('#entry').click(function() {
-            var status = index.switchUserStatus();
-            if (status === 0) {
-                $('#entry').html('退出聊天')
-            } else {
-                $('#entry').html('<i class="layui-icon">&#xe654;</i>参与聊天')
-            }
-        })
+            index.switchUserStatus();
+        });
 
         $('#send').click(function () {
-            var status = index.sendMessage($('#message').val());
+            index.sendMessage($('#message').val());
         });
     });
 </script>
