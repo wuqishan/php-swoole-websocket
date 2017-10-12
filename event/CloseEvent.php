@@ -15,6 +15,12 @@ class CloseEvent extends Event
         $this->close($server, $fd);
     }
 
+    /**
+     * 关闭链接执行的方法
+     *
+     * @param $server
+     * @param $fd
+     */
     public function close($server, $fd)
     {
         $redisKey = $this->getRedisKey($server, $fd);

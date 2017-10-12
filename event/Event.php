@@ -6,16 +6,37 @@ class Event
 {
     public $message;
 
+    /**
+     * 通过链接的 server 对象获取 redis 的存储 key
+     *
+     * @param $server
+     * @param $fd
+     * @return string
+     */
     public function getRedisKey($server, $fd)
     {
         return implode('_', [$fd, $server->worker_id]);
     }
 
+    /**
+     * 返回客户端的基本信息
+     *
+     * @param $server
+     * @param $frame
+     */
     public function getNormalInfo($server, $frame)
     {
         $this->message['datetime'] = date('Y-m-d H:i:s');
     }
 
+    /**
+     * 发送给所有在线用户的信息
+     *
+     * @param $server
+     * @param $message
+     * @param null $fd
+     * @return bool
+     */
     public function pushMsgToAll($server, $message, $fd = null)
     {
         foreach($server->connections as $v) {
@@ -29,6 +50,14 @@ class Event
         return true;
     }
 
+    /**
+     * 关闭链接发送的消息
+     *
+     * @param $server
+     * @param $message
+     * @param $fd
+     * @return bool
+     */
     public function pushMsgAsClose($server, $message, $fd)
     {
         foreach($server->connections as $v) {
@@ -40,6 +69,15 @@ class Event
         return true;
     }
 
+    /**
+     * 新建链接发送的消息
+     *
+     * @param $server
+     * @param $message
+     * @param $fd
+     * @param $users
+     * @return bool
+     */
     public function pushMsgAsOpen($server, $message, $fd, $users)
     {
         foreach($server->connections as $v) {

@@ -26,6 +26,12 @@ class MessageEvent extends Event
         }
     }
 
+    /**
+     * 聊天执行的方法
+     *
+     * @param $server
+     * @param $frame
+     */
     public function chat($server, $frame)
     {
         $redisKey = $this->getRedisKey($server, $frame->fd);
@@ -36,8 +42,19 @@ class MessageEvent extends Event
         $this->pushMsgToAll($server, $this->message);
     }
 
+    /**
+     * 新建链接执行的方法
+     *
+     * @param $server
+     * @param $frame
+     */
     public function open($server, $frame)
     {
+        // 此处预留待处理
+        if ($server->redis->count() > 1000) {
+            exit();
+        }
+
         $redisKey = $this->getRedisKey($server, $frame->fd);
         $server->redis->set($redisKey, $this->data->msg);
         $users = $server->redis->getAll();

@@ -8,8 +8,8 @@ use Event\CloseEvent;
 use Event\MessageEvent;
 use Helper\RedisHelper;
 
-class WebSocketChat {
-
+class WebSocketChat
+{
     public $server;
     public $open;
     public $message;
