@@ -9,7 +9,7 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
     var index = {};
 
     index.init = function (userId) {
-        socket = new WebSocket('ws://192.168.0.114:8900');
+        socket = new WebSocket('ws://127.0.0.1:8900');
         socket.onopen = function (event) {
             index.send(userId, 2);
         };
@@ -20,9 +20,17 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
                 tool.chat(event);
             } else if (event.dataObj.type === 2) {
                 tool.entry(event);
+                if (event.dataObj.users !== undefined) {
+                    tool.initUserList(event.dataObj.users, event.dataObj.from);
+                } else {
+                    tool.addUserList(event.dataObj.from);
+                }
             } else if (event.dataObj.type === 3) {
                 tool.leave(event);
+                tool.removeUserList(event.dataObj.from);
             }
+
+            console.log(event);
 
             tool.scrollBottom();
         };

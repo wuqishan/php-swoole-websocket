@@ -29,7 +29,7 @@ class MessageEvent extends Event
     public function chat($server, $frame)
     {
         $redisKey = $this->getRedisKey($server, $frame->fd);
-        $this->message['from'] = $server->redis->get($redisKey);
+        $this->message['from'] = ['key' => $redisKey, 'value' => $server->redis->get($redisKey)];
         $this->message['type'] = 1;
         $this->message['message'] = $this->data->msg;
 
@@ -40,10 +40,11 @@ class MessageEvent extends Event
     {
         $redisKey = $this->getRedisKey($server, $frame->fd);
         $server->redis->set($redisKey, $this->data->msg);
-        $this->message['from'] = $this->data->msg;
+        $users = $server->redis->getAll();
+        $this->message['from'] = ['key' => $redisKey, 'value' => $this->data->msg];
         $this->message['type'] = 2;
 
-        $this->pushMsgToAll($server, $this->message);
+        $this->pushMsgAsOpen($server, $this->message, $frame->fd, $users);
     }
 }
 

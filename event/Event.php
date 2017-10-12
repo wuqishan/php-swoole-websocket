@@ -29,7 +29,29 @@ class Event
         return true;
     }
 
+    public function pushMsgAsClose($server, $message, $fd)
+    {
+        foreach($server->connections as $v) {
+            if ($fd != $v) {
+                $server->push($v, json_encode($message));
+            }
+        }
 
+        return true;
+    }
+
+    public function pushMsgAsOpen($server, $message, $fd, $users)
+    {
+        foreach($server->connections as $v) {
+            if ($fd == $v) {
+                $server->push($v, json_encode(array_merge($message, ['users' => $users])));
+            } else {
+                $server->push($v, json_encode($message));
+            }
+        }
+
+        return true;
+    }
 }
 
 

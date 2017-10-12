@@ -64,3 +64,23 @@ form .layui-form-item {
 #user-list li {
     padding: 5px;
 }
+#user-list > .current-user-list {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #009f95;
+}
+
+#user-list > .per-user {
+    color: darkgoldenrod;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+#user-list > .per-user:hover {
+    color: #777777;
+}
+
+#user-list > .user-as-me {
+    color: #0C0C0C;
+    font-size: 16px;
+}

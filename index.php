@@ -10,21 +10,6 @@
         <div class="layui-col-md8" id="message-form">
             <div class="layui-row">
                 <div class="layui-col-md12" id="message-list">
-                    <blockquote class="layui-elem-quote per-msg">
-                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
-                        <div class="message-data">大家好</div>
-                    </blockquote>
-                    <blockquote class="layui-elem-quote per-msg">
-                        <div class="message-info"><span>一剪梅</span><span class="fr">2015-12-04 12:34:02</span></div>
-                        <div class="message-data">大家好</div>
-                    </blockquote>
-                    <blockquote class="layui-elem-quote per-msg">
-                        <div class="message-data user-entry">欢迎用户《一线天》加入聊天室</div>
-                    </blockquote>
-
-                    <blockquote class="layui-elem-quote per-msg">
-                        <div class="message-data user-leave">用户《一线天》离开聊天室</div>
-                    </blockquote>
                 </div>
             </div>
             <div class="layui-row">
@@ -46,7 +31,7 @@
         </div>
         <div class="layui-col-md4">
             <ul id="user-list">
-                <li>22222</li>
+                <li class="current-user-list">当前用户列表:</li>
             </ul>
         </div>
     </div>

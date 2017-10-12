@@ -20,10 +20,10 @@ class CloseEvent extends Event
         $redisKey = $this->getRedisKey($server, $fd);
         $msg = $server->redis->get($redisKey);
         $server->redis->del($redisKey);
-        $this->message['from'] = $msg;
+        $this->message['from'] = ['key' => $redisKey, 'value' => $msg];
         $this->message['type'] = 3;
 
-        $this->pushMsgToAll($server, $this->message, $fd);
+        $this->pushMsgAsClose($server, $this->message, $fd);
     }
 
 }

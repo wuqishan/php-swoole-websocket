@@ -1,6 +1,6 @@
 <?php
 
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 use Dotenv\Dotenv;
 use Event\OpenEvent;
@@ -17,7 +17,7 @@ class WebSocketChat {
 
     public function __construct()
     {
-        $env = new Dotenv(__DIR__);
+        $env = new Dotenv('../');
         $env->load();
 
         $this->open = new OpenEvent();
@@ -41,8 +41,8 @@ class WebSocketChat {
         });
 */
         $this->server->on('WorkerStart', function (swoole_websocket_server $server, $worker_id) {
-            $redis = new RedisHelper();
-            $this->server->redis = $redis->redis;
+            $redis = new RedisHelper(getenv('REDIS_SERVER'), getenv('REDIS_PORT'));
+            $this->server->redis = $redis;
         });
 
         $this->server->on('open', function (swoole_websocket_server $server, $request) {

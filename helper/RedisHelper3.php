@@ -2,14 +2,15 @@
 
 namespace Helper;
 
-class RedisHelper
+class RedisHelper3
 {
     public $redis;
     public $hash = 'user';
 
     public function __construct($host, $port)
     {
-        $this->redis = new \Predis\Client("tcp://{$host}:{$port}");
+        $this->redis = new \Redis();
+        $this->redis->connect($host, $port);
     }
 
     public function set($key, $value)
@@ -37,6 +38,11 @@ class RedisHelper
     public function getAllVal()
     {
         return $this->redis->hvals($this->hash);
+    }
+
+    public function getAllKey()
+    {
+        return $this->redis->hkeys($this->hash);
     }
 
     public function exists($key)

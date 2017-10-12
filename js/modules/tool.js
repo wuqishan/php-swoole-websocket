@@ -4,6 +4,7 @@ layui.define(['jquery'], function(exports){
     var msgMaxCount = 80;   // 当信息条数大于80的时候则删除30条数据(客户端检测)
     var delMsgCount = 30;
     var msgBox = $("#message-list");
+    var userBox = $("#user-list");
     var entryTemplate = '<blockquote class="layui-elem-quote per-msg">' +
                             '<div class="message-data user-entry">欢迎用户《%from%》加入聊天室！</div>' +
                         '</blockquote>'
@@ -17,11 +18,13 @@ layui.define(['jquery'], function(exports){
                             '</div>' +
                             '<div class="message-data">%message%</div>' +
                         '</blockquote>';
+    var userTemplate = '<li class="per-user" id="user-%key%">%value%</li>';
+    var userTemplateAsMe = '<li class="per-user user-as-me" id="user-%key%">%value%</li>';
 
     // 通知新用户进入聊天室
     tool.entry = function(e) {
         var data = {};
-        data.from = e.dataObj.from;
+        data.from = e.dataObj.from.value;
 
         msgBox.append(tool.sprintf(entryTemplate, data));
     };
@@ -43,6 +46,44 @@ layui.define(['jquery'], function(exports){
 
         msgBox.append(tool.sprintf(chatTemplate, data));
     };
+
+    // 初始化user list
+    tool.initUserList = function (users, from) {
+        users = users || {};
+        for (var i in users) {
+            var user = {};
+            user.key = i;
+            user.value = users[i];
+            if (from.key === i) {
+                userBox.append(tool.sprintf(userTemplateAsMe, user));
+            } else {
+                userBox.append(tool.sprintf(userTemplate, user));
+            }
+        }
+    }
+
+    // 添加新进来的用户
+    tool.addUserList = function (user) {
+        var hasUser = false;
+        userBox.find('.per-user').each(function(index) {
+            if ($(this).attr('id') === 'user-' + user.key) {
+                hasUser = true;
+                return;
+            }
+        });
+        if (! hasUser) {
+            userBox.append(tool.sprintf(userTemplate, user));
+        }
+    }
+
+    // 删除离开的用户
+    tool.removeUserList = function (user) {
+        userBox.find('.per-user').each(function(index) {
+            if ($(this).attr('id') === 'user-' + user.key) {
+                $(this).remove();
+            }
+        });
+    }
 
     // 聊天数据滚到底部及数据删除
     tool.scrollBottom = function () {
