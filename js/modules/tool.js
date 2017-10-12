@@ -32,7 +32,7 @@ layui.define(['jquery'], function(exports){
     // 通知用户离开聊天室
     tool.leave = function (e) {
         var data = {};
-        data.from = e.dataObj.from;
+        data.from = e.dataObj.from.value;
 
         msgBox.append(tool.sprintf(leaveTemplate, data));
     };
