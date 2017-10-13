@@ -41,7 +41,7 @@ class WebSocketChat
         });
 */
         $this->server->on('WorkerStart', function (swoole_websocket_server $server, $worker_id) {
-            $redis = new RedisHelper(getenv('REDIS_SERVER'), getenv('REDIS_PORT'));
+            $redis = new RedisHelper(getenv('REDIS_SERVER'), getenv('REDIS_PASS'), getenv('REDIS_PORT'));
             $this->server->redis = $redis;
         });
 

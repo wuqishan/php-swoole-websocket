@@ -7,9 +7,15 @@ class RedisHelper
     public $redis;
     public $hash = 'user';
 
-    public function __construct($host, $port)
+    public function __construct($host, $pass, $port)
     {
-        $this->redis = new \Predis\Client("tcp://{$host}:{$port}");
+        $config = [
+            'scheme' => 'tcp',
+            'host'   => $host,
+            'port'   => $port,
+            'password' => $pass
+        ];
+        $this->redis = new \Predis\Client($config);
     }
 
     /**
