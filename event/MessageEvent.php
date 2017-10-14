@@ -50,13 +50,9 @@ class MessageEvent extends Event
      */
     public function open($server, $frame)
     {
-        // 此处预留待处理
-        if ($server->redis->count() > 1000) {
-            exit();
-        }
-
         $redisKey = $this->getRedisKey($server, $frame->fd);
         $server->redis->set($redisKey, $this->data->msg);
+
         $users = $server->redis->getAll();
         $this->message['from'] = ['key' => $redisKey, 'value' => $this->data->msg];
         $this->message['type'] = 2;

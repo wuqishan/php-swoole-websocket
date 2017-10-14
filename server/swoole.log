@@ -1,0 +1,1184 @@
+[2017-10-14 12:14:41 *2632.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2631.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2633.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2634.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2636.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2635.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2637.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2638.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2639.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2640.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2641.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 *2643.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2642.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2644.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2645.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2646.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2647.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2648.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2649.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2650.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2651.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 *2652.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2653.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2654.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2656.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 *2657.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 *2655.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2658.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2659.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2660.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2661.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2662.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2663.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:41 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:41 *2664.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 *2665.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2666.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2667.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2668.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 *2669.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2670.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 *2671.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2672.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 *2673.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2674.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 *2675.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2676.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2677.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2678.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2679.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2680.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2681.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2682.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2683.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2684.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2685.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2686.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2687.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2688.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2689.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2691.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2690.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2692.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2693.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2694.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2696.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2695.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2697.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2698.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2699.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2700.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2701.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2702.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2703.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2704.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2705.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2706.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2707.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2708.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2710.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2709.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2711.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2712.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2713.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2714.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2715.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2716.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2717.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2718.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2719.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2720.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2722.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2721.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2723.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2724.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2725.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2726.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2727.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2728.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2729.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2730.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2731.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2732.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2733.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2734.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2735.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2736.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2737.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2738.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2740.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2739.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2741.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2742.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2743.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2744.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2745.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2746.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:42 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:42 *2747.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2748.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2749.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2750.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2751.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2752.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2753.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2754.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 *2755.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2756.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2757.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2758.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2759.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2760.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2761.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2762.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2763.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2764.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2765.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2766.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2768.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2767.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2769.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2770.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2771.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2772.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2773.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2774.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2776.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2775.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2777.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2778.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2780.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2779.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2781.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2782.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2783.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2784.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2785.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2786.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2787.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2788.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2789.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2790.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 2)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2791.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 0)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2792.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 1)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:14:43 $2628.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:14:43 *2793.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Predis\Client' not found in /home/www/php-swoole-websocket/helper/RedisHelper.php:18
+Stack trace:
+#0 /home/www/php-swoole-websocket/server/server.php(52): Helper\RedisHelper->__construct('192.168.0.114', 'wuqishan', '6379')
+#1 [internal function]: WebSocketChat->{closure}(Object(Swoole\WebSocket\Server), 3)
+#2 /home/www/php-swoole-websocket/server/server.php(68): Swoole\Http\Server->start()
+#3 /home/www/php-swoole-websocket/server/server
+[2017-10-14 12:15:33 *2808.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Predis\Connection\ConnectionException: Connection refused [tcp://192.168.0.114:6379] in /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+Stack trace:
+#0 /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/StreamConnection.php(128): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/StreamConn
+[2017-10-14 12:15:33 $2804.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 12:15:51 *2809.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Predis\Connection\ConnectionException: Connection refused [tcp://192.168.0.114:6379] in /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+Stack trace:
+#0 /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/StreamConnection.php(128): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/StreamConn
+[2017-10-14 12:15:51 $2804.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 13:37:09 *2983.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Predis\Connection\ConnectionException: Error while reading line from the server. [tcp://192.168.0.114:6379] in /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+Stack trace:
+#0 /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/StreamConnection.php(314): Predis\Connection\AbstractConnection->onConnectionError('Error while rea...')
+#1 /home/www/php-swoole-websocket/vendor/predis/predis/src/Con
+[2017-10-14 13:37:09 $2979.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 13:37:15 *2984.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Predis\Connection\ConnectionException: Error while reading line from the server. [tcp://192.168.0.114:6379] in /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/AbstractConnection.php:155
+Stack trace:
+#0 /home/www/php-swoole-websocket/vendor/predis/predis/src/Connection/StreamConnection.php(314): Predis\Connection\AbstractConnection->onConnectionError('Error while rea...')
+#1 /home/www/php-swoole-websocket/vendor/predis/predis/src/Con
+[2017-10-14 13:37:15 $2979.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 14:22:59 *3247.2]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2017-10-14 14:25:09 $3254.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-10-14 14:25:33 $3254.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-10-14 14:25:42 $3254.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-10-14 14:29:10 *3278.1]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[25 bytes] from socket#5
+[2017-10-14 14:32:59 *3294.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[25 bytes] from socket#4
+[2017-10-14 14:46:00 *3316.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[24 bytes] from socket#4
+[2017-10-14 14:48:11 *3326.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[24 bytes] from socket#4
+[2017-10-14 14:49:16 *3336.1]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[25 bytes] from socket#1
+[2017-10-14 14:50:15 *3343.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[24 bytes] from socket#4
+[2017-10-14 14:54:11 *3353.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[22 bytes] from socket#4
+[2017-10-14 14:54:11 $3350.0]	NOTICE	Server is reloading now.
+[2017-10-14 14:54:59 *3363.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[24 bytes] from socket#5
+[2017-10-14 14:54:59 $3350.0]	NOTICE	Server is reloading now.
+[2017-10-14 14:55:04 *3370.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[24 bytes] from socket#6
+[2017-10-14 14:55:04 $3350.0]	NOTICE	Server is reloading now.
+[2017-10-14 14:57:46 *3374.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[24 bytes] from socket#7
+[2017-10-14 14:57:46 $3350.0]	NOTICE	Server is reloading now.
+[2017-10-14 14:57:54 *3382.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[24 bytes] from socket#8
+[2017-10-14 14:57:54 $3350.0]	NOTICE	Server is reloading now.
+[2017-10-14 14:59:35 *3386.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[24 bytes] from socket#9
+[2017-10-14 14:59:35 $3350.0]	NOTICE	Server is reloading now.
+[2017-10-14 14:59:40 *3390.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[26 bytes] from socket#10
+[2017-10-14 14:59:40 $3350.0]	NOTICE	Server is reloading now.

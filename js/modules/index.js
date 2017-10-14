@@ -9,7 +9,7 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
     var index = {};
 
     index.init = function (userId) {
-        socket = new WebSocket('ws://127.0.0.1:8900');
+        socket = new WebSocket('ws://192.168.0.114:8900');
         socket.onopen = function (event) {
             index.send(userId, 2);
         };
@@ -38,7 +38,8 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
             layer.msg('已经离开聊天室！',{
                 icon: 0,
                 time: 2000
-            })
+            });
+            $('#entry').html('<i class="layui-icon">&#xe654;</i>参与聊天');
         };
     };
 

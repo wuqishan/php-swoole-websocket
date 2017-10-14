@@ -6,19 +6,14 @@ use Event\Event;
 
 class OpenEvent extends Event
 {
-    public function __construct()
-    {
-    }
+    public static $allow_conn_number = 500;
 
     public function run($server, $request)
     {
-        //print_r($request);
-
-        //$server->redis->set('wuqishan', json_encode($request));
-
-//        foreach ($server->connections as $v) {
-//            $server->push($v, "open ....");
-//        }
+        // 此处预留待处理
+        if ($server->redis->count() >= self::$allow_conn_number) {
+            $server->close($request->fd, true);
+        }
     }
 
 }

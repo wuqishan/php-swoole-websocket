@@ -51,6 +51,7 @@
 
         $('#send').click(function () {
             index.sendMessage($('#message').val());
+            $("#message").val('');
         });
     });
 </script>

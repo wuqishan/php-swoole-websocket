@@ -24,12 +24,13 @@ class CloseEvent extends Event
     public function close($server, $fd)
     {
         $redisKey = $this->getRedisKey($server, $fd);
-        $msg = $server->redis->get($redisKey);
         $server->redis->del($redisKey);
-        $this->message['from'] = ['key' => $redisKey, 'value' => $msg];
+        $this->message['from'] = ['key' => $redisKey, 'value' => $server->redis->get($redisKey)];
         $this->message['type'] = 3;
 
-        $this->pushMsgAsClose($server, $this->message, $fd);
+        if ($this->message['from']['value'] !== null) {
+            $this->pushMsgAsClose($server, $this->message, $fd);
+        }
     }
 
 }

@@ -40,7 +40,7 @@ layui.define(['jquery'], function(exports){
     // 通知用户聊天数据
     tool.chat = function (e) {
         var data = {};
-        data.from = e.dataObj.from;
+        data.from = e.dataObj.from.value;
         data.datetime = e.dataObj.datetime;
         data.message = e.dataObj.message;
 

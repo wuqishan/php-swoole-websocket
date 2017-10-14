@@ -15,8 +15,10 @@ class Event
      */
     public function getRedisKey($server, $fd)
     {
-        return implode('_', [$fd, $server->worker_id]);
+        return implode('_', ['fd', $fd, 'worker_id', $server->worker_id]);
     }
+
+
 
     /**
      * 返回客户端的基本信息
@@ -89,6 +91,24 @@ class Event
         }
 
         return true;
+    }
+
+    /**
+     * 自定义写 log
+     *
+     * @param $msg
+     * @param string $filename
+     */
+    public function L($msg, $filename = '')
+    {
+        if ($filename === '') {
+            $filename = 'mylog.log';
+        }
+        if (is_array($msg)) {
+            @file_put_contents($filename, print_r($msg, true) . "\r\n", FILE_APPEND);
+        } else {
+            @file_put_contents($filename, $msg . "\r\n", FILE_APPEND);
+        }
     }
 }
 
