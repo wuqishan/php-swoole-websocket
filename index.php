@@ -4,10 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
     <link rel="stylesheet" type="text/css" href="js/lib/layui/css/layui.css" media="screen">
-
-    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/ueditor.config.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/ueditor.all.min.js"> </script>
-    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/ueditor.config.js?v=1"></script>
+    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/ueditor.all.js?v=1"></script>
+    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/lang/zh-cn/zh-cn.js?v=1"></script>
 </head>
 <body>
 <div class="layui-container" id="box">
@@ -57,8 +56,8 @@
         });
 
         $('#send').click(function () {
-            index.sendMessage($('#message').val());
-            $("#message").val('');
+            index.sendMessage(UE.getEditor('editor').getContent());
+            UE.getEditor('editor').setContent('', false);
         });
     });
 </script>

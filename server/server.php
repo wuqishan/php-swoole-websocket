@@ -51,10 +51,10 @@ class WebSocketChat
         $this->server->on('WorkerStart', function (swoole_websocket_server $server, $worker_id) {
             //swoole_set_process_name("swoole_websocket_server_chat");
 
-            swoole_timer_tick(2000, function ($timer_id) use ($worker_id) {
-//                $server->master_pid;
-                echo "tick-2000ms -- $worker_id\n";
-            });
+//            swoole_timer_tick(2000, function ($timer_id) use ($worker_id) {
+////                $server->master_pid;
+//                echo "tick-2000ms -- $worker_id\n";
+//            });
 
             $redis = new RedisHelper(getenv('REDIS_SERVER'), getenv('REDIS_PASS'), getenv('REDIS_PORT'));
             $this->server->redis = $redis;
