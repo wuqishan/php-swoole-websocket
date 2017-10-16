@@ -1,11 +1,16 @@
 <html>
 <head>
     <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
     <link rel="stylesheet" type="text/css" href="js/lib/layui/css/layui.css" media="screen">
+
+    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="js/lib/ueditor-utf8-php/lang/zh-cn/zh-cn.js"></script>
 </head>
 <body>
-<div class="layui-container layui-bg-orange" id="box">
+<div class="layui-container" id="box">
     <div class="layui-row" >
         <div class="layui-col-md8" id="message-form">
             <div class="layui-row">
@@ -18,7 +23,7 @@
                         <div class="layui-form-item layui-form-text">
                             <label class="layui-form-label">文本域</label>
                             <div class="layui-input-block">
-                                <textarea placeholder="请输入内容" id="message" class="layui-textarea"></textarea>
+                                <script id="editor" type="text/plain"></script>
                             </div>
                         </div>
                         <div class="layui-form-item">
@@ -39,6 +44,8 @@
 
 <script src="js/lib/layui/layui.js"></script>
 <script type="text/javascript">
+    var ue = UE.getEditor('editor');
+
     layui.config({
         base: '/js/modules/'
     }).use(['jquery', 'index'], function () {

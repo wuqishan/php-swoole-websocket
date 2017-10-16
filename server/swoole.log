@@ -1182,3 +1182,9 @@ Stack trace:
 [2017-10-14 14:59:35 $3350.0]	NOTICE	Server is reloading now.
 [2017-10-14 14:59:40 *3390.0]	WARNING	swWorker_discard_data (ERROR 1007): [1]received the wrong data[26 bytes] from socket#10
 [2017-10-14 14:59:40 $3350.0]	NOTICE	Server is reloading now.
+[2017-10-16 06:30:10 $18342.0]	WARNING	swTimer_init: cannot use timer in master and manager process.
+[2017-10-16 06:30:10 #18341.2]	WARNING	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=11.
+[2017-10-16 06:30:39 $18350.0]	WARNING	swTimer_init: cannot use timer in master and manager process.
+[2017-10-16 06:30:39 #18349.2]	WARNING	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=11.
+[2017-10-16 06:30:59 $18358.0]	WARNING	swTimer_init: cannot use timer in master and manager process.
+[2017-10-16 06:30:59 #18357.2]	WARNING	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=11.
