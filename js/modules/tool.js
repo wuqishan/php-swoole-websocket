@@ -85,6 +85,13 @@ layui.define(['jquery'], function(exports){
         });
     }
 
+    // 清空用户列表数据
+    tool.flushAllUser = function () {
+        userBox.find('.per-user').each(function(index) {
+            $(this).remove();
+        });
+    }
+
     // 聊天数据滚到底部及数据删除
     tool.scrollBottom = function () {
         var msgCount = $('.per-msg').length;

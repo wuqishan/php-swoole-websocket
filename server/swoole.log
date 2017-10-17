@@ -1188,3 +1188,7 @@ Stack trace:
 [2017-10-16 06:30:39 #18349.2]	WARNING	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=11.
 [2017-10-16 06:30:59 $18358.0]	WARNING	swTimer_init: cannot use timer in master and manager process.
 [2017-10-16 06:30:59 #18357.2]	WARNING	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=11.
+[2017-10-17 08:19:25 $18956.0]	WARNING	swTimer_init: cannot use timer in master and manager process.
+[2017-10-17 08:19:25 #18955.2]	WARNING	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=11.
+[2017-10-17 08:19:51 $18964.0]	WARNING	swTimer_init: cannot use timer in master and manager process.
+[2017-10-17 08:19:51 #18963.2]	WARNING	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=11.

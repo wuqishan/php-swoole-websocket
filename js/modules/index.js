@@ -71,6 +71,7 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
         } else {
             socket.close();
             socket = null;
+            tool.flushAllUser();
             $('#entry').html('<i class="layui-icon">&#xe654;</i>参与聊天');
         }
 

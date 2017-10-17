@@ -6,6 +6,7 @@ use Dotenv\Dotenv;
 use Event\OpenEvent;
 use Event\CloseEvent;
 use Event\MessageEvent;
+use Event\TimerTick;
 use Helper\RedisHelper;
 
 class WebSocketChat
@@ -23,6 +24,7 @@ class WebSocketChat
         $this->open = new OpenEvent();
         $this->message = new MessageEvent();
         $this->close = new CloseEvent();
+        $this->tick = new TimerTick();
 
         $this->server = new swoole_websocket_server(getenv('WEBSOCKET_SERVER'), getenv('WEBSOCKER_PORT'));
 
@@ -51,10 +53,9 @@ class WebSocketChat
         $this->server->on('WorkerStart', function (swoole_websocket_server $server, $worker_id) {
             //swoole_set_process_name("swoole_websocket_server_chat");
 
-//            swoole_timer_tick(2000, function ($timer_id) use ($worker_id) {
-////                $server->master_pid;
-//                echo "tick-2000ms -- $worker_id\n";
-//            });
+            if ($server->worker_id === 0) {
+                swoole_timer_tick(TimerTick::CLEAR_FILE_TIME, array($this->tick, 'clearFile'));
+            }
 
             $redis = new RedisHelper(getenv('REDIS_SERVER'), getenv('REDIS_PASS'), getenv('REDIS_PORT'));
             $this->server->redis = $redis;
