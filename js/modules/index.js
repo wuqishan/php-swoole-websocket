@@ -78,7 +78,17 @@ layui.define(['jquery', 'layer', 'tool'], function(exports){
 
     index.sendMessage = function (message) {
         if (socket !== null) {
-            index.send(message, 1);
+
+            console.log($.trim(message))
+
+            if ($.trim(message) == '') {
+                layer.msg('发送内容不能为空',{
+                    icon: 0,
+                    time: 2000
+                });
+            } else {
+                index.send(message, 1);
+            }
         } else {
             layer.msg('请先点击"+参与聊天"，填写ID',{
                 icon: 0,

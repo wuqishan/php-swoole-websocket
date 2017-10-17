@@ -49,7 +49,7 @@
 
         , toolbars: [[
             'fullscreen', 'undo', 'redo', '|',
-            'bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', '|', 'insertorderedlist', 'insertunorderedlist', '|',
+            'bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', '|',
 			'fontfamily', 'fontsize','|',
             'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|',
 			'emotion', 'attachment', 'insertcode', 'spechars'

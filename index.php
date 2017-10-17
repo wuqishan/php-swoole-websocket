@@ -20,9 +20,8 @@
                 <div class="layui-col-md12">
                     <form class="layui-form layui-form-pane">
                         <div class="layui-form-item layui-form-text">
-                            <label class="layui-form-label">文本域</label>
                             <div class="layui-input-block">
-                                <script id="editor" type="text/plain"></script>
+                                <script id="editor" type="text/plain" style="height: 105px"></script>
                             </div>
                         </div>
                         <div class="layui-form-item">
@@ -45,6 +44,15 @@
 <script type="text/javascript">
     var ue = UE.getEditor('editor');
 
+    function getContent()
+    {
+        return UE.getEditor('editor').getContent();
+    }
+    function setContent(content, flag)
+    {
+        UE.getEditor('editor').setContent(content, flag);
+    }
+
     layui.config({
         base: '/js/modules/'
     }).use(['jquery', 'index'], function () {
@@ -56,8 +64,8 @@
         });
 
         $('#send').click(function () {
-            index.sendMessage(UE.getEditor('editor').getContent());
-            UE.getEditor('editor').setContent('', false);
+            index.sendMessage(getContent(false));
+            setContent('', false);
         });
     });
 </script>

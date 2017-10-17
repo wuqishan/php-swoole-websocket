@@ -31,11 +31,18 @@ form .layui-form-item {
     border-bottom-right-radius: 5px;
 }
 #message-list > .per-msg > .message-info {
-    background-color: #E9E7E7;
+    background-color: #ededed;
     font-size: 12px;
-    margin-bottom: 8px;
     font-style: normal;
     color: #555555;
+    padding: 5px;
+}
+
+#message-list > .per-msg > .message-data {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
 }
 
 #message-list > .per-msg > .user-entry {
