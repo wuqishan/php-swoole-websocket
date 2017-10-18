@@ -4,7 +4,7 @@
 [https://github.com/wuqishan/php-swoole-websocket.git](https://github.com/wuqishan/php-swoole-websocket.git "项目代码下载")
 # 简介 #
 
-这是一个利用php7 swoole2 里面的swoole_websocket_server对象开发的websocket聊天小系统。
+这是一个利用php7+swoole2+redis开发的websocket聊天小系统。
 
 # 搭建该项目 #
 
